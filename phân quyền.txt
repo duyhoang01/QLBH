@@ -1,0 +1,32 @@
+﻿1. Nhân viên.
+2. Quản lý. 
+3. Admin - Giám đốc
+
+- Admin có quyền TẠO, XÓA người dùng. Không được SỬA thông tin người dùng
+- Tài khoản nào thì có quyền sửa thông tin của mjk nó.
+
+-------------------- Kho ------------------------
+Chỉ Admin, và Quản lý được phân quyền. mới được TẠO, SỬA thông tin kho. 
+Chỉ Admin có quyền XÓA kho.
+Từ cấp Quản lý trở lên mới có quyền xem, tìm kiếm thông tin kho
+
+-------------------- Khách hàng ------------------------
+Nhân viên, Quản lý, Admin có quyền THÊM, SỬA, XÓA, TÌM KIẾM thông tin khách hàng 
+
+-------------------- Sản phẩm ------------------------
+Nhân viên, Quản lý, Admin có quyền THÊM, SỬA, XÓA, TÌM KIẾM thông tin sản phẩm
+
+-------------------- Hóa đơn ------------------------
+Nhân viên, Quản lý, Admin có quyền THÊM, SỬA, XÓA, TÌM KIẾM thông tin sản phẩm
+
+-------------------- Nhân Viên ------------------------
+Nhân viên có quyền SỬA (Không được sửa lương.), XEM thông tin của minh (K XEM được của nhân viên khác)
+Nhân viên hoặc Quản lý được Admin phân quyền. sẽ được TẠO, XÓA nhân viên, và SỬA lương nhân viên. 
+Toàn bộ Quản lý và Admin có quyền XEM thông tin nhân viên. 
+
+-------------------- Báo cáo ------------------------
+Nhân viên hoặc Quản lý được Admin mới có quyền TẠO, SỬA, XÓA, XEM báo cáo
+
+-------------------- Chương trình khuyến mại ------------------------
+Nhân viên hoặc Quản lý được Admin mới có quyền TẠO, SỬA, XÓA các chương trình khuyến mãi
+Nhân viên, Quản lý khác chỉ có quyền XEM thông tin khuyễn mai
